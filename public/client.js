@@ -2,7 +2,7 @@
   var ol = document.createElement("ol");
   document.body.appendChild(ol);
 
-  io.setPath('/ext/socket.io/');
+  io.setPath('/ext/socket.mine/');
   var socket = new io.Socket('localhost', { 
     port: 8888,
     transports: ['websocket', 'htmlfile', 'xhr-multipart', 'xhr-polling']
